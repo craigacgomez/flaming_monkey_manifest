@@ -3,11 +3,13 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="craigacgomez/flaming_monkey_build" groups="pdk" remote="github" revision="android-4.3_r2.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
