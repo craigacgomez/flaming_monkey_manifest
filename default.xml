@@ -392,5 +392,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/flaming_monkey" name="craigacgomez/flaming_monkey_vendor_flaming_monkey" remote="github" revision="android-4.3_r2.1" />
 
 </manifest>
