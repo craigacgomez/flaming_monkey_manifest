@@ -302,7 +302,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PerformanceControl" name="horn3t/android_packages_apps_PerformanceControl" remote="github" revision="jb2" />
+  <project path="packages/apps/PerformanceControl" name="craigacgomez/flaming_monkey_packages_apps_PerformanceControl" remote="github" revision="android-4.3_r2.2" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
