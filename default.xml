@@ -306,6 +306,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/QSCP" name="craigacgomez/flaming_monkey_packages_apps_QSCP" remote="github" revision="android-4.3_r2.2" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="craigacgomez/flaming_monkey_packages_apps_Settings" remote="github" revision="android-4.3_r2.2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
