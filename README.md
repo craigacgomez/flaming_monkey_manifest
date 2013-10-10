@@ -7,7 +7,7 @@ Manifest file for Flaming Monkey
 
         $ mkdir FLAMING_MONKEY
         $ cd FLAMING_MONKEY
-        $ repo init -u https://github.com/craigacgomez/flaming_monkey_manifest -b android-4.3_r3.1
+        $ repo init -u https://github.com/craigacgomez/flaming_monkey_manifest -b android-4.3.1_r1
         $ repo sync
 
 - **Update the source:**

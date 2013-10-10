@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-4.3_r3.1"
+  <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="craigacgomez/flaming_monkey_build" groups="pdk" remote="github" revision="android-4.3_r3.1" >
+  <project path="build" name="craigacgomez/flaming_monkey_build" groups="pdk" remote="github" revision="android-4.3.1_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -43,7 +43,7 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="craigacgomez/flaming_monkey_device_samsung_manta" groups="device,manta" remote="github" revision="android-4.3_r3.1" />
+  <project path="device/samsung/manta" name="craigacgomez/flaming_monkey_device_samsung_manta" groups="device,manta" remote="github" revision="android-4.3.1_r1" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
@@ -123,7 +123,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="craigacgomez/flaming_monkey_superuser" remote="github" revision="android-4.3_r3.1" />
+  <project path="external/koush/Superuser" name="craigacgomez/flaming_monkey_superuser" remote="github" revision="android-4.3.1_r1" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -220,7 +220,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="craigacgomez/flaming_monkey_frameworks_base" remote="github" revision="android-4.3_r3.1" />
+  <project path="frameworks/base" name="craigacgomez/flaming_monkey_frameworks_base" remote="github" revision="android-4.3.1_r1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -273,7 +273,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="craigacgomez/flaming_monkey_packages_apps_Bluetooth" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/Bluetooth" name="craigacgomez/flaming_monkey_packages_apps_Bluetooth" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -285,13 +285,13 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Email" name="craigacgomez/flaming_monkey_packages_apps_Email" remote="github" revision="android-4.3_r3.1" />
-  <project path="packages/apps/Exchange" name="craigacgomez/flaming_monkey_packages_apps_Exchange" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/Email" name="craigacgomez/flaming_monkey_packages_apps_Email" remote="github" revision="android-4.3.1_r1" />
+  <project path="packages/apps/Exchange" name="craigacgomez/flaming_monkey_packages_apps_Exchange" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="craigacgomez/flaming_monkey_packages_apps_Launcher2" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/Launcher2" name="craigacgomez/flaming_monkey_packages_apps_Launcher2" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
@@ -301,13 +301,13 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PerformanceControl" name="craigacgomez/flaming_monkey_packages_apps_PerformanceControl" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/PerformanceControl" name="craigacgomez/flaming_monkey_packages_apps_PerformanceControl" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QSCP" name="craigacgomez/flaming_monkey_packages_apps_QSCP" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/QSCP" name="craigacgomez/flaming_monkey_packages_apps_QSCP" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="craigacgomez/flaming_monkey_packages_apps_Settings" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/apps/Settings" name="craigacgomez/flaming_monkey_packages_apps_Settings" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -325,7 +325,7 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="craigacgomez/flaming_monkey_packages_providers_MediaProvider" remote="github" revision="android-4.3_r3.1" />
+  <project path="packages/providers/MediaProvider" name="craigacgomez/flaming_monkey_packages_providers_MediaProvider" remote="github" revision="android-4.3.1_r1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -377,7 +377,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="craigacgomez/flaming_monkey_system_core" groups="pdk" remote="github" revision="android-4.3_r3.1" />
+  <project path="system/core" name="craigacgomez/flaming_monkey_system_core" groups="pdk" remote="github" revision="android-4.3.1_r1" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -393,6 +393,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/flaming_monkey" name="craigacgomez/flaming_monkey_vendor_flaming_monkey" remote="github" revision="android-4.3_r3.1" />
+  <project path="vendor/flaming_monkey" name="craigacgomez/flaming_monkey_vendor_flaming_monkey" remote="github" revision="android-4.3.1_r1" />
 
 </manifest>
